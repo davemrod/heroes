@@ -1,0 +1,24 @@
+<div *ngIf="! fandoms.length">No hay fans por el momento</div>
+<!--<div class="box">
+    <span class="tit">Nombre</span><span class="tit">email</span><span class="tit">Sexo</span><span class="fechatit">Fecha de nacimiento</span><span class="tit">Bando</span>
+</div>-->
+    <div class="box">
+        <article *ngFor="let fan of fandoms" class="card">
+            <span class="dat">nombre:</span>
+            <span class="datos">{{fan.name}}</span>
+            <span class="dat">correo:</span>
+            <span class="datos">{{fan.correo}}</span>
+            <span class="dat">sexo:</span>
+            <span class="datos">{{fan.sexo}}</span>
+            <span class="dat">fecha de nacimiento:</span>
+            <span class="datos">{{fan.fecha}}</span>
+            <span class="dat">bando:</span>
+            <!--<span class="bando">{{fan.bando}}</span>-->
+            <div *ngIf="fan.bando == 'MARVEL' else dc" class="centro">
+                <img src="assets/img/marvel.png" style="align-items: center;" width="100px" alt="">
+            </div>
+            <ng-template #dc>
+                <img class="centro" src="assets/img/dc.png" width="80px" alt="">
+            </ng-template>
+        </article>
+    </div>

@@ -1,0 +1,41 @@
+.tit{
+    font-weight: 500;
+    font-size: 1.8em;
+}
+
+.titulo{
+    color: white;
+    font-size: 3em;
+}
+
+.radius{
+    border-radius: 0%;
+}
+
+@media screen and (min-width: 500px){
+    .card-columns{
+        column-count: 2;
+    }
+
+}
+
+@media screen and (min-width: 700px){
+    .card-columns{
+        column-count: 3;
+    }
+
+}
+
+@media screen and (min-width: 900px){
+    .card-columns{
+        column-count: 4;
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    .card-columns{
+        column-count: 5;
+    }
+
+}

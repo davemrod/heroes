@@ -1,0 +1,8 @@
+<div class="box">
+    <div class="row animated fadeIn fast" *ngIf="indice == -1">
+        <div class="co-md-12">
+            Tu héroe <span  style="color:rgb(240,19,30)">{{nombreh}}</span> no existe
+        </div><!-- -->
+    </div>
+<app-unheroe *ngIf="indice != -1" [heroe] = 'miheroe'></app-unheroe>
+</div>

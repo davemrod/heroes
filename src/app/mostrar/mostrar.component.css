@@ -1,0 +1,46 @@
+.box{
+    /*display: flex;
+    flex-direction: row;
+    text-align: center;*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.card{
+    text-align: center;
+    width: 300px;
+    height: 450px;
+    background-color: rgba(0,0,0,0.9);
+    margin: 30px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.dat{
+    width: 100%;
+    font-size: 1.1em;
+    color: white;
+}
+
+.bando{
+    font-weight: 500;
+    font-size: 2em;
+    color: white;
+}
+
+.datos{
+    font-weight: 500;
+    font-size: 1.6em;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.centro{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}

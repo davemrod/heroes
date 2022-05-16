@@ -1,0 +1,57 @@
+<nav class="fondo navbar navbar-expand-lg centro" style="background-color: rgba(0,0,0,0.8);">
+  <img src="../../assets/img/wcom.png" width="30" height="30" alt="" style="margin-right:10px">
+    <a class="navbar-brand" href="#">Worderland Com</a>
+    <button class="navbar-toggler boton" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon blanco"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" [routerLink]="['/home']">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/heroes']">Héroes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/about']">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/mostrar']">Fandom</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/video']">¿Azul o Rojo?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/mundo']">Cómics en el mundo</a>
+        </li>
+        <!--
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+        -->
+      </ul>
+
+      <!--
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    -->
+      <div class="form-inline my-2 my-lg-0 centro">
+        <input class="form-control mr-sm-2" type="text" placeholder="Buscar Héroe" #buscarTexto (keyup.enter)="buscarUnHeroe(buscarTexto.value)" style="background-color: rgba(0,0,0,0.8);">
+        <button (click)="buscarUnHeroe(buscarTexto.value)" class="btn btn-outline-success my-2 my-sm-0 boton" type="button">Buscar</button>
+      </div>
+    </div>
+  </nav>

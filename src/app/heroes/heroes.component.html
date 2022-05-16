@@ -1,0 +1,73 @@
+<h1 class="text-center titulo">Heroes <small>Marvel & DC</small></h1>
+
+<div class="card-columns">
+    <div class="card" *ngFor = "let h of misHeroes, let i=index " [ngStyle]="{'border':'2px solid','border-color':h.casa=='Marvel'?'rgba(240,19,30,0.9)':'rgba(4,118,242,0.9)','background-color':'rgba(0,0,0,0.9'}">
+      <img src={{h.img}} class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title tit" [ngStyle]="{'color':h.casa=='Marvel'?'rgba(240,19,30,0.9)':'rgba(4,118,242,0.9)'}">{{h.nombre}}</h5>
+        <p class="card-text" style="color:white">{{h.bio}}</p>
+        <p class="card-text"><small class="text-muted">{{h.aparicion}}</small></p>
+      </div>
+      <a [routerLink]="['/heroe',i]" class="mb-3 btn btn-outline-primary btn-block radius" [ngStyle]="{'background-color':h.casa=='Marvel'?'rgba(240,19,30,0.9)':'rgba(4,118,242,0.9)','color':'rgb(255,255,255)','border':'none'}">Ver más</a>
+    </div>
+</div>
+
+<!--
+    <div class="card p-3">
+      <blockquote class="blockquote mb-0 card-body">
+        <p>A well-known quote, contained in a blockquote element.</p>
+        <footer class="blockquote-footer">
+          <small class="text-muted">
+            Someone famous in <cite title="Source Title">Source Title</cite>
+          </small>
+        </footer>
+      </blockquote>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card bg-primary text-white text-center p-3">
+      <blockquote class="blockquote mb-0">
+        <p>A well-known quote, contained in a blockquote element.</p>
+        <footer class="blockquote-footer text-white">
+          <small>
+            Someone famous in <cite title="Source Title">Source Title</cite>
+          </small>
+        </footer>
+      </blockquote>
+    </div>
+    <div class="card text-center">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img" alt="...">
+    </div>
+    <div class="card p-3 text-right">
+      <blockquote class="blockquote mb-0">
+        <p>A well-known quote, contained in a blockquote element.</p>
+        <footer class="blockquote-footer">
+          <small class="text-muted">
+            Someone famous in <cite title="Source Title">Source Title</cite>
+          </small>
+        </footer>
+      </blockquote>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+
+-->
