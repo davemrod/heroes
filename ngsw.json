@@ -1,0 +1,153 @@
+{
+  "configVersion": 1,
+  "timestamp": 1653635633797,
+  "index": "https://davemrod.github.io/heroes/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://davemrod.github.io/heroes/favicon.ico",
+        "https://davemrod.github.io/heroes/index.html",
+        "https://davemrod.github.io/heroes/main.07ec72d831ce7ede.js",
+        "https://davemrod.github.io/heroes/manifest.webmanifest",
+        "https://davemrod.github.io/heroes/polyfills.f280a8b15a86a4af.js",
+        "https://davemrod.github.io/heroes/runtime.f4a02506af37cb8f.js",
+        "https://davemrod.github.io/heroes/styles.84b8a257a4bdda24.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://davemrod.github.io/heroes/assets/icons/icon-128x128.png",
+        "https://davemrod.github.io/heroes/assets/icons/icon-144x144.png",
+        "https://davemrod.github.io/heroes/assets/icons/icon-152x152.png",
+        "https://davemrod.github.io/heroes/assets/icons/icon-192x192.png",
+        "https://davemrod.github.io/heroes/assets/icons/icon-256x256.png",
+        "https://davemrod.github.io/heroes/assets/icons/icon-384x384.png",
+        "https://davemrod.github.io/heroes/assets/icons/icon-512x512.png",
+        "https://davemrod.github.io/heroes/assets/icons/icon-72x72.png",
+        "https://davemrod.github.io/heroes/assets/icons/icon-96x96.png",
+        "https://davemrod.github.io/heroes/assets/img/A-64.png",
+        "https://davemrod.github.io/heroes/assets/img/aquaman.jpg",
+        "https://davemrod.github.io/heroes/assets/img/aquaman.png",
+        "https://davemrod.github.io/heroes/assets/img/avengers.jpg",
+        "https://davemrod.github.io/heroes/assets/img/batman.jpg",
+        "https://davemrod.github.io/heroes/assets/img/batman.png",
+        "https://davemrod.github.io/heroes/assets/img/batmancar.jpg",
+        "https://davemrod.github.io/heroes/assets/img/capitan.png",
+        "https://davemrod.github.io/heroes/assets/img/construccion.jpg",
+        "https://davemrod.github.io/heroes/assets/img/daredevil.png",
+        "https://davemrod.github.io/heroes/assets/img/dc.jpg",
+        "https://davemrod.github.io/heroes/assets/img/dc.png",
+        "https://davemrod.github.io/heroes/assets/img/doctor.jpg",
+        "https://davemrod.github.io/heroes/assets/img/fondo.png",
+        "https://davemrod.github.io/heroes/assets/img/hulk.png",
+        "https://davemrod.github.io/heroes/assets/img/ironman.jpg",
+        "https://davemrod.github.io/heroes/assets/img/ironman.png",
+        "https://davemrod.github.io/heroes/assets/img/linterna-verde.png",
+        "https://davemrod.github.io/heroes/assets/img/marvel.jpg",
+        "https://davemrod.github.io/heroes/assets/img/marvel.png",
+        "https://davemrod.github.io/heroes/assets/img/mdc.png",
+        "https://davemrod.github.io/heroes/assets/img/moon.png",
+        "https://davemrod.github.io/heroes/assets/img/peace.jpg",
+        "https://davemrod.github.io/heroes/assets/img/spider.jpg",
+        "https://davemrod.github.io/heroes/assets/img/spiderman.jpg",
+        "https://davemrod.github.io/heroes/assets/img/spiderman.png",
+        "https://davemrod.github.io/heroes/assets/img/superman.jpg",
+        "https://davemrod.github.io/heroes/assets/img/superman.png",
+        "https://davemrod.github.io/heroes/assets/img/thor.png",
+        "https://davemrod.github.io/heroes/assets/img/titanes.jpg",
+        "https://davemrod.github.io/heroes/assets/img/wanda.png",
+        "https://davemrod.github.io/heroes/assets/img/wcom.png",
+        "https://davemrod.github.io/heroes/assets/img/wolverine.png",
+        "https://davemrod.github.io/heroes/assets/img/wonderwoman.png",
+        "https://davemrod.github.io/heroes/fondo.32d7cf88750bf6fc.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://davemrod.github.io/heroes/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://davemrod.github.io/heroes/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://davemrod.github.io/heroes/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://davemrod.github.io/heroes/assets/icons/icon-192x192.png": "241b85041033493be50979f23a3381fcc6fcebc7",
+    "https://davemrod.github.io/heroes/assets/icons/icon-256x256.png": "9c83229c171154f48ab16382f6e60d69afaa8d4f",
+    "https://davemrod.github.io/heroes/assets/icons/icon-384x384.png": "2b67e25b9d585e557ea74c343dfcc5af66d02737",
+    "https://davemrod.github.io/heroes/assets/icons/icon-512x512.png": "81d4a163e0ee39ced18d5c5a8ac0ef367b1ff5cd",
+    "https://davemrod.github.io/heroes/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://davemrod.github.io/heroes/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://davemrod.github.io/heroes/assets/img/A-64.png": "e22d6898af44efbc2cb66383d1947d07088b35e3",
+    "https://davemrod.github.io/heroes/assets/img/aquaman.jpg": "00b7c4b33eda5d9811a6e5342f3e1c6bd8ce7932",
+    "https://davemrod.github.io/heroes/assets/img/aquaman.png": "6f888c972601d1e3795727399241409a39325a19",
+    "https://davemrod.github.io/heroes/assets/img/avengers.jpg": "7e60466d934e3a0ecf268e0df34073ad12ffeeb5",
+    "https://davemrod.github.io/heroes/assets/img/batman.jpg": "48ae2bd9908cb63ac8f7ea77986fc4b7c67e3417",
+    "https://davemrod.github.io/heroes/assets/img/batman.png": "c79ba6ec0ff094183c56563c156eecb47c3b9969",
+    "https://davemrod.github.io/heroes/assets/img/batmancar.jpg": "aeda46efea0ba510abc1e38bc28c9adfce3892a9",
+    "https://davemrod.github.io/heroes/assets/img/capitan.png": "f55dcd78bb3ba41b8726d0b2e9a3c8888094dd58",
+    "https://davemrod.github.io/heroes/assets/img/construccion.jpg": "d9d5e2ff24326852b0f0a319a66fb70d6956d43a",
+    "https://davemrod.github.io/heroes/assets/img/daredevil.png": "97bcb75391a39b9c56122e2f4eabe10feede01f5",
+    "https://davemrod.github.io/heroes/assets/img/dc.jpg": "c5736878c0fdf41b396a74ba1460a118d5d781b1",
+    "https://davemrod.github.io/heroes/assets/img/dc.png": "70fcbaaaa83bf07594253fa58833c6b1612dded6",
+    "https://davemrod.github.io/heroes/assets/img/doctor.jpg": "fdbd2ea45b879a3225ac7ee0c7808c4374bc4ad3",
+    "https://davemrod.github.io/heroes/assets/img/fondo.png": "885dda1818c05d24c1c74051f78fce08efe8d736",
+    "https://davemrod.github.io/heroes/assets/img/hulk.png": "af2ed8c7d4c25db3239204c7edee8d31fed2986b",
+    "https://davemrod.github.io/heroes/assets/img/ironman.jpg": "3d623c2a1c0ed339a8c963f30811703fc8976530",
+    "https://davemrod.github.io/heroes/assets/img/ironman.png": "db0bab9a49da24ab36b437aa69a66306fe540bad",
+    "https://davemrod.github.io/heroes/assets/img/linterna-verde.png": "0943883c4a1e710be7f16b110c8f76ce84649c67",
+    "https://davemrod.github.io/heroes/assets/img/marvel.jpg": "67d1f07e47b39e13869ff43b4a3d29b22c6d98c2",
+    "https://davemrod.github.io/heroes/assets/img/marvel.png": "6c489ecb354410df79fa29e630ceb20864e06e28",
+    "https://davemrod.github.io/heroes/assets/img/mdc.png": "1bfbffcb192936dbc49766c6b5b7ac8e348a5c40",
+    "https://davemrod.github.io/heroes/assets/img/moon.png": "5b4a01822b166bbaca2522a2bf3917fdc1402b61",
+    "https://davemrod.github.io/heroes/assets/img/peace.jpg": "b51a50f1c22e6f3ae00d5eb31b9f3a4abcdb518d",
+    "https://davemrod.github.io/heroes/assets/img/spider.jpg": "e506a7d46f8163ca597d68ea5e383faf00c15397",
+    "https://davemrod.github.io/heroes/assets/img/spiderman.jpg": "9af521769fdc3de3fa1aa0d44199043d28622344",
+    "https://davemrod.github.io/heroes/assets/img/spiderman.png": "c22d275f2bea490cd1cc2828c65b5f5bfef1946a",
+    "https://davemrod.github.io/heroes/assets/img/superman.jpg": "80c31df56e48572dde6a16fb749dbe35a706691c",
+    "https://davemrod.github.io/heroes/assets/img/superman.png": "641958106357ccc32cf3eec6caef00ef3d8c4c6d",
+    "https://davemrod.github.io/heroes/assets/img/thor.png": "8604edfa4ad9a27d4b674a3eae5fd7b8a2a5e2fe",
+    "https://davemrod.github.io/heroes/assets/img/titanes.jpg": "17d5808171d7e017b3cebc9319e6312ef48bf57e",
+    "https://davemrod.github.io/heroes/assets/img/wanda.png": "b6d25d543d29ec0dc0743e0bf31680af03470486",
+    "https://davemrod.github.io/heroes/assets/img/wcom.png": "a4135b86d76e733ed3e14c9aa94dbda4b23b2ccb",
+    "https://davemrod.github.io/heroes/assets/img/wolverine.png": "c39dac4245c9b7c2f49c6bb380cf439df8f4c5c2",
+    "https://davemrod.github.io/heroes/assets/img/wonderwoman.png": "3be586502c5f86ad97095529ea5446127367fc99",
+    "https://davemrod.github.io/heroes/favicon.ico": "d45f8106508d2da6de1308a8bb7525d49287f444",
+    "https://davemrod.github.io/heroes/fondo.32d7cf88750bf6fc.png": "885dda1818c05d24c1c74051f78fce08efe8d736",
+    "https://davemrod.github.io/heroes/index.html": "f9e1dfc345e95625005896846a06119175f770e9",
+    "https://davemrod.github.io/heroes/main.07ec72d831ce7ede.js": "cdbea0b081c42592fc7348c58a0c9c5245882e34",
+    "https://davemrod.github.io/heroes/manifest.webmanifest": "95298a6f5b0f672c529d6e04640f350edbe487f6",
+    "https://davemrod.github.io/heroes/polyfills.f280a8b15a86a4af.js": "59d01b8f64dfbca0206a5e7d6cab1c03fddeb347",
+    "https://davemrod.github.io/heroes/runtime.f4a02506af37cb8f.js": "d91d76faf585971f9b4188cae567ba75d376ef40",
+    "https://davemrod.github.io/heroes/styles.84b8a257a4bdda24.css": "3ed5a31af0a1298fb6b5320493a88793608171da"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
